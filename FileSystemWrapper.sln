@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWrapper", "FileSystemWrapper\FileSystemWrapper.csproj", "{07FEE661-9E2B-494B-A81C-BEFED92C17FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemMock", "FileSystemMock\FileSystemMock.csproj", "{FDA6BF95-0263-41BD-B6C0-551AFA06E2FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemMock.Tests", "FileSystemMock.Tests\FileSystemMock.Tests.csproj", "{A5130C64-529E-45DB-BA30-17CDA7700C8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07FEE661-9E2B-494B-A81C-BEFED92C17FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FEE661-9E2B-494B-A81C-BEFED92C17FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FEE661-9E2B-494B-A81C-BEFED92C17FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FEE661-9E2B-494B-A81C-BEFED92C17FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDA6BF95-0263-41BD-B6C0-551AFA06E2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDA6BF95-0263-41BD-B6C0-551AFA06E2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDA6BF95-0263-41BD-B6C0-551AFA06E2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDA6BF95-0263-41BD-B6C0-551AFA06E2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5130C64-529E-45DB-BA30-17CDA7700C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5130C64-529E-45DB-BA30-17CDA7700C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5130C64-529E-45DB-BA30-17CDA7700C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5130C64-529E-45DB-BA30-17CDA7700C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
